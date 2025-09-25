@@ -1,0 +1,28 @@
+#!/bin/bash
+#Define a function to greet the user
+greet() {
+  echo "Hello, $1!"
+}
+
+# Define a function to display the current dare and time
+display_date_time () {
+  echo "current date and time: $(date)"
+}
+
+#Main script
+echo "Welcome to my bash script!"
+
+# Call the greet function
+greet "World"
+
+#Call the display_date_time function
+display_date_time
+
+# Ask the user for their name
+read -p "What is your name? " username
+
+# Greet the user by name
+greet "$username"
+
+# Dispaly a farewell message
+echo "Goodbye, $username!"
