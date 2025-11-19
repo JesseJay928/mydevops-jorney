@@ -1,2 +1,0 @@
-# mydevops-jorney
-mydev
